@@ -9,7 +9,201 @@
     <title>Bootstrap-05</title>
 </head>
 <body>
-    <h1>Panda Commerce-05</h1>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info text-center">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home">
+                  <img src="logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div id="carouselExampleSlidesOnly" class="carousel slide panda-slide my-5 p-5 rounded" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center d-flex">
+                    <div class="col-md-7">
+                        <h1>Mega Ultra 4K TV</h1>
+                        <p>This is best TV for Watching movies, game....</p>
+                        <h3>$1200</h3>
+                        <button class="btn btn-outline-info">Buy Your TV</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center d-flex">
+                    <div class="col-md-7">
+                        <h1>Mega Ultra 4K TV</h1>
+                        <p>This is best TV for Watching movies, game....</p>
+                        <h3>$1200</h3>
+                        <button class="btn btn-outline-info">Buy Your TV</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center d-flex">
+                    <div class="col-md-7">
+                        <h1>Mega Ultra 4K TV</h1>
+                        <p>This is best TV for Watching movies, game....</p>
+                        <h3>$1200</h3>
+                        <button class="btn btn-outline-info">Buy Your TV</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main class="container">
+        <section  class="container overflow-hidden my-5">
+            <div class="row gx-5 catagories">
+              <div class="col ">
+               <div class="p-3 rounded bg-info d-flex align-items-center justify-content-around">
+                   <h1 class="text-white">Bags</h1>
+                   <img src="img/categories/bag.png" alt="">
+               </div>
+              </div>
+              <div class="col">
+                <div class="p-3 rounded bg-secondary  d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Watch</h1>
+                    <img src="img/categories/watch.png" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Shoes</h1>
+                    <img src="img/categories/shoes.png" alt="">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="shoes" class="container my-5">
+              <h3 class="text-center py-3">Shoes</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow p-3 mb-5 bg-body rounded border-info">
+                    <img src="img/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Supply 350</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <p class="fs-4 text-info">$280</p>
+                            <div class="btn btn-outline-info">Buy Now >></div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow p-3 mb-5 bg-body rounded border-info">
+                    <img src="img/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike-455</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <p class="fs-4 text-info">$380</p>
+                            <div class="btn btn-outline-info">Buy Now >></div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow p-3 mb-5 bg-body rounded border-info">
+                    <img src="img/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Air mix 505</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <p class="fs-4 text-info">$280</p>
+                            <div class="btn btn-outline-info">Buy Now >></div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <!-- Bag section -->
+          <section id="backpack" class="container my-5">
+            <h3 class="text-center py-3">Shoes</h3>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 shadow p-3 mb-5 bg-body rounded border-info">
+                  <img src="img/bags/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="d-grid gap-2">
+                      <p class="fs-4 text-info">$280</p>
+                          <div class="btn btn-outline-info">Buy Now >></div> 
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow p-3 mb-5 bg-body rounded border-info">
+                  <img src="img/bags/bag-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike-455</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="d-grid gap-2">
+                      <p class="fs-4 text-info">$380</p>
+                          <div class="btn btn-outline-info">Buy Now >></div> 
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow p-3 mb-5 bg-body rounded border-info">
+                  <img src="img/bags/bag-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Air mix 505</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="d-grid gap-2">
+                      <p class="fs-4 text-info">$580</p>
+                          <div class="btn btn-outline-info">Buy Now >></div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="subscribe" style="height: 300px;" class="container d-flex justify-content-center align-items-center bg-info rounded-2 mx-2 my-5">
+            <div>
+                <h1>Let's Stay in Touch</h1>
+                <h5>Get updates, specials and more</h5>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="enter your email">
+                  </div>
+                <div class="d-grid gap-2 col-6">
+                    <button class="btn btn-outline-dark my-1">Submit</button>
+                  </div>
+                
+
+            </div>
+            
+        </section>
+    </main>
+    <footer class="text-center">
+        <small>&copy;All Right reserved for All. 🌹</small>
+    </footer>
+    
 
 
 
